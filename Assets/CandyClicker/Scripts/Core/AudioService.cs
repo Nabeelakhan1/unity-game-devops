@@ -16,6 +16,7 @@ namespace CandyClicker.Core
 
         private void Awake()
         {
+        Debug.Log("a comment added");
             _source = GetComponent<AudioSource>();
             _source.playOnAwake = false;
         }
